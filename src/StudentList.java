@@ -6,8 +6,6 @@ import java.util.LinkedList;
  * Description: This class stores list of students by using Linkedlist
  */
 
-
-
 public class StudentList {
     // Instance variables
     private LinkedList<Student> studentList;
@@ -46,7 +44,7 @@ public class StudentList {
      */
     public boolean addStudent(String id, String name, float gpa, String img, String address, String notes) {
         Student checkStudent = getStudentById(id);
-        if (checkStudent != null) {
+        if (checkStudent == null) {
             studentList.add(new Student(id, name, gpa, img, address, notes));
             return true;
         }
@@ -78,5 +76,13 @@ public class StudentList {
             return false;
         }
         return studentList.remove(getStudentById(id));
+    }
+
+    /**
+     * Getter of student list
+     * @return Student list
+     */
+    public LinkedList<Student> getStudentList() {
+        return this.studentList;
     }
 }
