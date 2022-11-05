@@ -1,3 +1,5 @@
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedList;
 
 /**
@@ -25,7 +27,7 @@ public class StudentList {
     public boolean addStudent(Student s) {
         String id = s.getId();
         Student checkStudent = getStudentById(id);
-        if (checkStudent != null) {
+        if (checkStudent == null) {
             studentList.add(s);
             return true;
         }
@@ -84,5 +86,26 @@ public class StudentList {
      */
     public LinkedList<Student> getStudentList() {
         return this.studentList;
+    }
+
+    public void doSth() {
+        System.out.println(studentList.toString());
+    }
+    public void sortLinkedListById() {
+        studentList.sort(new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                return Integer.parseInt(o1.getId()) - Integer.parseInt(o2.getId());
+            }
+        });
+    }
+
+    public void sortLinkedListByGpa() {
+        studentList.sort(new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                return Float.compare(o1.getGpa(), o2.getGpa());
+            }
+        });
     }
 }

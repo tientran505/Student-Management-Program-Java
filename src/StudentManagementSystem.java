@@ -1,3 +1,6 @@
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Scanner;
 import java.io.*;
@@ -51,10 +54,48 @@ public class StudentManagementSystem {
     }
 
     public void printList() {
-        LinkedList<Student> studentList = list.getStudentList();
-        for (Student s : studentList) {
-            System.out.println(s.getId());
+        System.out.println("Use mode of viewing list");
+        System.out.println("1. With the student ID in ascending order");
+        System.out.println("2. With the GPA in ascending order");
+
+        Scanner scanner = new Scanner(System.in);
+        int choice = Integer.parseInt(scanner.nextLine());
+        if (choice == 1) {
+            list.sortLinkedListById();
+        } else if (choice == 2) {
+            list.sortLinkedListByGpa();
+        } else {
+            System.out.println("Invalid choice...");
+            return;
         }
+
+        LinkedList<Student> studentList = list.getStudentList();
+        String leftAlignFormat = "|  %-9s | %-27s  | %-5.2f | %-5s | %-32s | %-32s |%n";
+        String nextLineFormat = "|  %-9s | %-27s  | %-5s | %-5s | %-32s | %-32s |%n";
+
+        System.out.format("+------------+------------------------------+-------+-------+----------------------------------+----------------------------------+%n");
+        System.out.format("| Student ID |              Name            |  GPA  | Image |              Address             |               Notes              |%n");
+        System.out.format("+------------+------------------------------+-------+-------+----------------------------------+----------------------------------+%n");
+
+        for (Student s : studentList) {
+
+            String addr = s.getAddress();
+            if (addr.length() > 30) {
+                int commaIndex = addr.indexOf(",");
+                String substr1 =  addr.substring(0, commaIndex + 1);
+                String substr2 = addr.substring(commaIndex + 1);
+                System.out.format(leftAlignFormat, s.getId(), s.getName(), s.getGpa(), s.getImg(),
+                        substr1, s.getNotes());
+                System.out.format(nextLineFormat, "", "", "", "", substr2, "");
+            }
+            else {
+                System.out.format(leftAlignFormat, s.getId(), s.getName(), s.getGpa(), s.getImg(),
+                        s.getAddress(), s.getNotes());
+            }
+            System.out.format("+------------+------------------------------+-------+-------+----------------------------------+----------------------------------+%n");
+
+        }
+
     }
 
     public void deleteStudent() {
@@ -81,22 +122,21 @@ public class StudentManagementSystem {
 
                 if (studentInfo.length > 5) {
                     for (int i = 0; i < studentInfo.length; i++) {
-                        System.out.println(studentInfo[i]);
-                        if (studentInfo[i].length() != 0 && studentInfo[i].charAt(0) == '"') {
-                            System.out.println("I'm at " + i);
+                         if (studentInfo[i].length() > 0 && studentInfo[i].charAt(0) == '"') {
                             for (int j = i + 1; j < studentInfo.length; j++) {
-                                System.out.println("Before: " + studentInfo[i]);
                                 studentInfo[i] = studentInfo[i] + "," + studentInfo[j];
-                                System.out.println("After: " + studentInfo[i]);
                                 if (studentInfo[j].charAt(studentInfo[j].length() - 1) == '"') {
-                                    for (int k = i + 1; k < studentInfo.length - 1; k++) {
-                                        studentInfo[k] = studentInfo[k + 1];
+                                    int distance = j - i;
+                                    if (j == studentInfo.length - 1) {
+                                        for (int k = i + 1; k < studentInfo.length; k++) {
+                                            studentInfo[k] = "";
+                                        }
                                     }
-                                    i = j;
-                                    for (int s = 0; s < studentInfo.length; s++) {
-                                        System.out.println(s + " - " + studentInfo[s]);
+                                    else {
+                                        for (int k = j + 1; k < studentInfo.length; k++) {
+                                            studentInfo[k - distance] = studentInfo[k];
+                                        }
                                     }
-                                    System.out.println("I'm end " + j);
                                     break;
                                 }
                             }
@@ -113,7 +153,6 @@ public class StudentManagementSystem {
 
                 Student s = new Student(id, name, gpa, img, address, notes);
                 list.addStudent(s);
-                System.out.println(id + " | " + name + " | " + address + " | " + notes);
             }
 
         } catch (IOException e) {
@@ -131,6 +170,81 @@ public class StudentManagementSystem {
 
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    void updateStudentInfor() {
+        Scanner scanner = new Scanner(System.in);
+
+        String id = scanner.nextLine();
+
+        Student st = list.getStudentById(id);
+
+        if (st == null) {
+            System.out.println("Can't find entered student ID in the system");
+        }
+        else {
+            System.out.println("Student found! Information: ");
+            System.out.println("ID: " + st.getId());
+            System.out.println("Name: " + st.getName());
+            System.out.println("GPA: " + st.getGpa());
+            System.out.println("Address: " + st.getAddress());
+            System.out.println("Notes: " + st.getNotes());
+
+            System.out.println("-------------------------------------------");
+            System.out.println("Enter type of information need to change");
+            System.out.println("1. Student ID");
+            System.out.println("2. Name");
+            System.out.println("3. GPA");
+            System.out.println("4. Image");
+            System.out.println("5. Address");
+            System.out.println("6. Notes");
+
+            int choice = Integer.parseInt(scanner.nextLine());
+
+            switch (choice) {
+                case 1 -> {
+                    System.out.print("New Student ID: ");
+                    String newId = scanner.nextLine();
+                    if (list.getStudentById(newId) == null) {
+                        System.out.println("Student ID is successfully updated");
+                        st.setId(newId);
+                    } else {
+                        System.out.println("Failed to update! Entered ID has been already in the system.");
+                    }
+                }
+                case 2 -> {
+                    System.out.print("New name: ");
+                    String newName = scanner.nextLine();
+                    st.setName(newName);
+                    System.out.println("Student's name is successfully updated");
+                }
+                case 3 -> {
+                    System.out.print("New GPA: ");
+                    float newGpa = Float.parseFloat(scanner.nextLine());
+                    st.setGpa(newGpa);
+                    System.out.println("Student's GPA is successfully updated");
+                }
+                case 4 -> {
+                    System.out.print("New image: ");
+                    String newImg = scanner.nextLine();
+                    st.setImg(newImg);
+                    System.out.println("Student's image is successfully updated");
+                }
+                case 5 -> {
+                    System.out.print("New Address: ");
+                    String newAddr = scanner.nextLine();
+                    st.setImg(newAddr);
+                    System.out.println("Student's address is successfully updated");
+                }
+                case 6 -> {
+                    System.out.print("New notes: ");
+                    String newNotes = scanner.nextLine();
+                    st.setNotes(newNotes);
+                    System.out.println("Student's notes is successfully updated");
+                }
+                default -> System.out.println("Invalid choice");
+            }
         }
     }
 }

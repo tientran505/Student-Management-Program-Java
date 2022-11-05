@@ -80,4 +80,57 @@ public class Student {
     public String getNotes() {
         return notes;
     }
+
+    /**
+     * Setter of id
+     * @param id - student ID
+     */
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    /**
+     * Setter of name
+     * @param name - name of Student
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * Setter of gpa
+     * @param gpa - GPA of student
+     */
+    public void setGpa(float gpa) {
+        if (Float.compare(gpa, 0) > 1 || Float.compare(10, gpa) > 1) {
+            System.out.println("Invalid GPA");
+        }
+        else {
+            this.gpa = gpa;
+        }
+    }
+
+    /**
+     * Setter of address
+     * @param address - address of Student
+     */
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    /**
+     * Setter of image
+     * @param img - iamge of student
+     */
+    public void setImg(String img) {
+        this.img = img;
+    }
+
+    /**
+     * Setter of notes
+     * @param notes - notes about student
+     */
+    public void setNotes(String notes) {
+        this.notes = notes;
+    }
 }
