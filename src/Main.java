@@ -50,6 +50,12 @@ public class Main {
                     break;
 
                 case 6:
+                    System.out.println("IMPORT THE STUDENT LIST");
+                    System.out.print("Enter filename: ");
+                    String dir = "data/";
+                    String fileName = scanner.nextLine();
+                    sys.importList(dir + fileName);
+//                    sys.createFolder(fileName);
                     break;
 
                 case 7:
