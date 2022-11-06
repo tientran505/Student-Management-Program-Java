@@ -88,9 +88,6 @@ public class StudentList {
         return this.studentList;
     }
 
-    public void doSth() {
-        System.out.println(studentList.toString());
-    }
     public void sortLinkedListById() {
         studentList.sort(new Comparator<Student>() {
             @Override

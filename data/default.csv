@@ -1,212 +1,180 @@
 ﻿student id,student name,gpa,image,address,notes
-21127023,Mai Quý Đạt,5.95,,"17/183 Dang Tien Dong Street, District 8, Trung Liet Ward","good, excellent"
-21127033,Trần Thành Duy,6.69,,"14 Alley 28/2, Ong ich Khiem",well
-21127044,Mai Bùi Thế Hiển,3.69,,249 lo 955B,bad in time management
-21127046,Đặng Nhật Hòa,2.8,,"Thanh Ha Ward, Hoi An Township",
-21127054,Huỳnh Thiện Hữu,1.07,,51 Duong Lang Street,
-21127068,Ngô Hoàng Khang,1.83,,"92 - 94 Nguyen Thi Tan, P2.",
-21127077,Huỳnh Đăng Khoa,3.37,,107 Nguyen Van Cu Street,
-21127078,Nguyễn Duy Đăng Khoa,0.87,,"ET4 Nguyen Hong Dao, Ward 13",
-21127082,Trần Tuấn Khôi,4.14,,"127, Group 15, Song Hien Ward",
-21127084,Lê Xuân Kiên,1.05,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127101,Võ Tấn Lộc,4.54,,"106/9 Nguyen Hong, Ward 11",
-21127108,Đặng Hà Nhật Minh,3.32,,405 Kim Nguu Street,
-21127112,Triệu Nhật Minh,6.49,,"67/5C Tam Dong Hamlet, Thoi Tam Thon Ward",
-21127113,Đinh Dương Hải Nam,7.01,,306 Nguyen Trai,
-21127115,Trần Thanh Ngân,3.4,,"165/35 Street 3/2, Ward 11, District 10",
-21127116,Nguyễn Lê Thanh Nghĩa,0.74,,Urban My Dinh 2,
-21127118,Lâm Thanh Ngọc,5.15,,"92 - 94 Nguyen Thi Tan, P2.",
-21127122,Hồ Thanh Nhân,9.71,,107 Nguyen Van Cu Street,
-21127126,Bùi Minh Nhật,1.56,,"ET4 Nguyen Hong Dao, Ward 13",
-21127141,Bùi Đỗ Duy Quân,6.31,,"127, Group 15, Song Hien Ward",
-21127148,Đặng Văn Quang,1.26,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127151,Nguyễn Nhật Quang,4.44,,"106/9 Nguyen Hong, Ward 11",
-21127153,Nguyễn Huỳnh Phú Quí,6.82,,405 Kim Nguu Street,
-21127158,Lê Hoàng Sang,8.31,,"67/5C Tam Dong Hamlet, Thoi Tam Thon Ward",
-21127173,Nguyễn Thiên Thọ,5.44,,"80/46 Tran Quang Dieu, Ward 14, Dist.3",
-21127176,Lê Thị Hoài Thư,4.9,,534 Minh Khai street,
-21127188,Đỗ Minh Triết,8.53,,"176 Vo Thi Sau, Ward 07, Dist.3",
-21127193,Nguyễn Thanh Tú,3.86,,37-C9 Phuong Mai Street,
-21127195,Lê Tự Anh Tuấn,6.78,,National Hightway 1A,
-21127199,Trần Quốc Tuấn,0.27,,"140 Dien Bien Phu Street, District 1",
-21127203,Hoàng Đức Việt,3.13,,"176/22A Hoa Binh St., Tan Thoi Hoa Ward",
-21127205,Cao Hoài Yến Vy,5.8,,"165/35 Street 3/2, Ward 11, District 10",
-21127223,Nguyễn Tiến Bách,1.26,,Urban My Dinh 2,
-21127236,Vũ Đình Chương,7.2,,"92 - 94 Nguyen Thi Tan, P2.",
-21127267,Phan Văn Bá Hải,2.6,,107 Nguyen Van Cu Street,
-21127291,Nguyễn Quỳnh Hương,2.28,,"ET4 Nguyen Hong Dao, Ward 13",
-21127297,Đỗ Phạm Thanh Huy,1.45,,"127, Group 15, Song Hien Ward",
-21127306,Phùng Quang Minh Huy,1.36,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127327,Nguyễn Trần Trung Kiên,7.44,,"106/9 Nguyen Hong, Ward 11",
-21127335,Sầm Phan Hoài Lâm,8.2,,"811 Tran Hung Dao, Ward 1, District 5",
-21127345,Nguyễn Quang Lộc,9.28,,"176/22A Hoa Binh St., Tan Thoi Hoa Ward",
-21127364,Phạm Thị Phương Nam,7.69,,"92 - 94 Nguyen Thi Tan, P2.",
-21127382,Phù Thành Nhân,3.05,,107 Nguyen Van Cu Street,
-21127402,Nguyễn Minh Quân,8.36,,"ET4 Nguyen Hong Dao, Ward 13",
-21127409,Nguyễn Minh Quôc,1.79,,"127, Group 15, Song Hien Ward",
-21127414,Nguyễn Thái Đan Sâm,3.04,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127421,Hồ Hữu Tâm,4.23,,"106/9 Nguyen Hong, Ward 11",
-21127474,Nguyễn Hải Tuyên,6.24,,405 Kim Nguu Street,
-21127483,Nguyễn Ngọc Vũ,2.47,,"67/5C Tam Dong Hamlet, Thoi Tam Thon Ward",
-21127507,Đinh Công Huy Hoàng,7.15,,306 Nguyen Trai,
-21127518,Nguyễn Vũ Minh Khôi,3.72,,"165/35 Street 3/2, Ward 11, District 10",
-21127559,Trần Đình Trung,1.54,,Urban My Dinh 2,
-21127570,Trần Minh Đạt,3.38,,"92 - 94 Nguyen Thi Tan, P2.",
-21127596,Bùi Minh Đức,1.08,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127600,Nguyễn Tuấn Dương,1.33,,"106/9 Nguyen Hong, Ward 11",
-21127614,Phan Minh Nhật Hưng,7.11,,"811 Tran Hung Dao, Ward 1, District 5",
-21127621,Âu Dương Khang,9.15,,"176/22A Hoa Binh St., Tan Thoi Hoa Ward",
-21127629,Trần Minh Khoa,7.45,,"92 - 94 Nguyen Thi Tan, P2.",
-21127631,Vũ Anh Khoa,4.58,,107 Nguyen Van Cu Street,
-21127634,Mạch Vĩ Kiệt,3.87,,"ET4 Nguyen Hong Dao, Ward 13",
-21127639,Hoàng Vạn Lộc,4.78,,"165/35 Street 3/2, Ward 11, District 10",
-21127658,Trần Hà Minh Nhật,8.9,,Urban My Dinh 2,
-21127662,Nguyễn Bùi Mẫn Nhi,9.11,,"92 - 94 Nguyen Thi Tan, P2.",
-21127666,Trần Thuận Phát,1.52,,107 Nguyen Van Cu Street,
-21127681,Lê Mỹ Khánh Quỳnh,1.95,,"ET4 Nguyen Hong Dao, Ward 13",
-21127709,Lê Vũ Ngân Trúc,4.62,,"127, Group 15, Song Hien Ward",
-21127723,Bùi Quang Vinh,6.13,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127736,Trần Thái Toàn,7.41,,"106/9 Nguyen Hong, Ward 11",
-21127739,Vũ Minh Phát,8.17,,"167, Quang Trung",
-21127008,Phạm Duy Anh,0.39,,Tan An Commune,
-21127016,Võ Ngọc Gia Bảo,1.09,,"Mr Nguyen Tho Thai, Tap Cat 2 Village",
-21127019,Lê Phương Chi,5.67,,101 Trung Nu Vuong St.,
-21127043,Lư Trung Hậu,6.63,,"11/72G Quang Trung, Ward 8",
-21127050,Trần Nguyên Huân,1.29,,"92 Trieu Quoc Dat Street, City",
-21127076,Doãn Anh Khoa,4.06,,"106/1132C Le Duc Tho St., Ward 13",
-21127083,Hoàng Đức Kiên,9.05,,"113 Phung Hung, Hoan Kiem",
-21127089,Nguyễn Tuấn Kiệt,1.71,,"106/9 Nguyen Hong, Ward 11",
-21127119,Phạm Ánh Như Ngọc,6.5,,"167, Quang Trung",
-21127131,Trần Hải Phát,7.44,,Tan An Commune,
-21127143,Nguyễn Minh Quân,5.25,,"Mr Nguyen Tho Thai, Tap Cat 2 Village",
-21127177,Nguyễn Anh Thư,7.95,,101 Trung Nu Vuong St.,
-21127181,Nguyễn Nhật Tiến,1.99,,"11/72G Quang Trung, Ward 8",
-21127240,Nguyễn Phát Đạt,7.86,,"92 Trieu Quoc Dat Street, City",
-21127262,Lê Trường Giang,1.04,,"106/1132C Le Duc Tho St., Ward 13",
-21127272,Văn Ngọc Nguyên Hạo,7.07,,"113 Phung Hung, Hoan Kiem",
-21127275,Võ Thanh Hiệp,3.68,,"106/9 Nguyen Hong, Ward 11",
-21127285,Phan Thanh Hoàng,8.93,,405 Kim Nguu Street,
-21127289,Đoàn Việt Hưng,8.37,,"67/5C Tam Dong Hamlet, Thoi Tam Thon Ward",
-21127322,Hoàng Xuân Khôi,0.34,,306 Nguyen Trai,
-21127342,Nguyễn Đức Việt Linh,1.56,,"165/35 Street 3/2, Ward 11, District 10",
-21127377,Lâm Trọng Nhân,7.75,,Urban My Dinh 2,
-21127388,Tăng Đức Phong,1.59,,"92 - 94 Nguyen Thi Tan, P2.",
-21127392,Lê Huỳnh Phúc,4.71,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127396,Nguyễn Phan Tuấn Phúc,0.4,,"106/9 Nguyen Hong, Ward 11",
-21127406,Trần Đình Quang,6.83,,"ET4 Nguyen Hong Dao, Ward 13",
-21127407,Trần Minh Quang,6.62,,"127, Group 15, Song Hien Ward",
-21127411,Trần Thanh Quý,9.16,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127412,Hồ Bạch Như Quỳnh,3.76,,"106/9 Nguyen Hong, Ward 11",
-21127426,Lê Đoàn Thắng,2.1,,405 Kim Nguu Street,
-21127454,Đinh Bảo Trân,9.29,,"67/5C Tam Dong Hamlet, Thoi Tam Thon Ward",
-21127460,Dương Thanh Trúc,5.41,,306 Nguyen Trai,
-21127463,Nguyễn Thế Trung,8.49,,"165/35 Street 3/2, Ward 11, District 10",
-21127469,Võ Thanh Tú,1.31,,Urban My Dinh 2,
-21127476,Lê Nguyễn Phương Uyên,2.47,,"92 - 94 Nguyen Thi Tan, P2.",
-21127505,Ngô Xuân Hiếu,5.49,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127511,Nguyễn Quốc Huy,7.72,,"106/9 Nguyen Hong, Ward 11",
-21127537,Phạm Sĩ Phú,7.69,,"811 Tran Hung Dao, Ward 1, District 5",
-21127553,Lê Gia Quốc Tỉ,1.12,,"176/22A Hoa Binh St., Tan Thoi Hoa Ward",
-21127556,Đỗ Quốc Trí,2.52,,"92 - 94 Nguyen Thi Tan, P2.",
-21127560,Nguyễn Bảo Tuấn,3.16,,107 Nguyen Van Cu Street,
-21127569,Lê Tiến Đạt,8.55,,"ET4 Nguyen Hong Dao, Ward 13",
-21127572,Đinh Thị Thuỳ Dương,1.53,,"165/35 Street 3/2, Ward 11, District 10",
-21127576,Ngô Đức Tín,6.77,,Urban My Dinh 2,
-21127578,Nguyễn Hồng Quế Anh,7.57,,"92 - 94 Nguyen Thi Tan, P2.",
-21127579,Phạm Bùi Tuấn Anh,3.18,,107 Nguyen Van Cu Street,
-21127589,Nguyễn Gia Bảo Danh,1.49,,"ET4 Nguyen Hong Dao, Ward 13",
-21127590,Nguyễn Đức Tuấn Đạt,8.65,,"127, Group 15, Song Hien Ward",
-21127601,Đỗ Hoàng Khánh Duy,1.99,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127613,Đoàn Nguyễn Hưng,3.13,,"106/9 Nguyen Hong, Ward 11",
-21127615,Bạch Gia Huy,9.08,,Urban My Dinh 2,
-21127620,Trần Hoàng Khải,7.33,,"92 - 94 Nguyen Thi Tan, P2.",
-21127636,Tăng Kim Lân,0.67,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127642,Trịnh Minh Long,6.62,,"106/9 Nguyen Hong, Ward 11",
-21127643,Nguyễn Chí Lương,7.47,,"ET4 Nguyen Hong Dao, Ward 13",
-21127649,Nguyễn Trung Nga,8.49,,"127, Group 15, Song Hien Ward",
-21127656,Ngô Đức Nhân,2.69,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127657,Nguyễn Khánh Nhân,9.47,,"106/9 Nguyen Hong, Ward 11",
-21127670,Hồ Thế Phúc,4.59,,405 Kim Nguu Street,
-21127671,Nguyễn Hoàng Phúc,1.93,,"67/5C Tam Dong Hamlet, Thoi Tam Thon Ward",
-21127674,Sú Quang Mỹ Phụng,1.58,,306 Nguyen Trai,
-21127677,Võ Phạm Thanh Phương,6.47,,"165/35 Street 3/2, Ward 11, District 10",
-21127689,Nguyễn Hồng Thái,3.43,,Urban My Dinh 2,
-21127696,Nguyễn Minh Thông,4.08,,"92 - 94 Nguyen Thi Tan, P2.",
-21127705,Từ Phước Toàn,4.15,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127708,Nguyễn Phú Trọng,4.46,,"106/9 Nguyen Hong, Ward 11",
-21127713,Nguyễn Sơn Trường,8.99,,"811 Tran Hung Dao, Ward 1, District 5",
-21127717,Phạm Trần Tuấn Tú,3.06,,"176/22A Hoa Binh St., Tan Thoi Hoa Ward",
-21127733,Lê Nguyễn Thái Dương,9.41,,"92 - 94 Nguyen Thi Tan, P2.",
-21127734,Huỳnh Sỉ Kha,6.14,,107 Nguyen Van Cu Street,
-21127740,Đoàn Nam Thắng,5.66,,"ET4 Nguyen Hong Dao, Ward 13",
-21127741,Nguyễn Lê Tấn Thành,8.44,,"127, Group 15, Song Hien Ward",
-21127004,Trần Nguyễn An Phong,5.36,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127005,Lê Trọng Đức Anh,9.15,,"106/9 Nguyen Hong, Ward 11",
-21127011,Trịnh Xuân Bách,6.57,,405 Kim Nguu Street,
-21127031,Phạm Quốc Duy,9.18,,"67/5C Tam Dong Hamlet, Thoi Tam Thon Ward",
-21127035,Huỳnh Sơn Hà,1.48,,306 Nguyen Trai,
-21127041,Lý Nhật Hào,2.97,,"165/35 Street 3/2, Ward 11, District 10",
-21127051,Đào Tiến Hưng,2.25,,Urban My Dinh 2,
-21127058,Lưu Đình Huy,2.21,,"92 - 94 Nguyen Thi Tan, P2.",
-21127072,Nguyễn Hữu Khánh,5.55,,107 Nguyen Van Cu Street,
-21127073,Nguyễn Lê Quốc Khánh,2.85,,"ET4 Nguyen Hong Dao, Ward 13",
-21127081,Nguyễn Minh Khôi,7.38,,"127, Group 15, Song Hien Ward",
-21127085,Phan Trung Kiên,4.18,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127087,Nguyễn Gia Kiệt,3.77,,"106/9 Nguyen Hong, Ward 11",
-21127099,Nguyễn Tấn Lộc,3.19,,405 Kim Nguu Street,
-21127102,Nguyễn Thành Luân,8.43,,"67/5C Tam Dong Hamlet, Thoi Tam Thon Ward",
-21127104,Đoàn Ngọc Mai,4.79,,"80/46 Tran Quang Dieu, Ward 14, Dist.3",
-21127107,Bùi Vũ Thế Minh,2.73,,534 Minh Khai street,
-21127129,Lê Nguyễn Kiều Oanh,4.08,,"176 Vo Thi Sau, Ward 07, Dist.3",
-21127133,Đoàn Gia Phú,8.82,,37-C9 Phuong Mai Street,
-21127135,Diệp Hữu Phúc,1.73,,National Hightway 1A,
-21127147,Võ Anh Quân,0.86,,"140 Dien Bien Phu Street, District 1",
-21127149,Huỳnh Minh Quang,1.55,,"176/22A Hoa Binh St., Tan Thoi Hoa Ward",
-21127159,Nguyễn Cao Sơn,7.83,,Urban My Dinh 2,
-21127160,Nguyễn Thanh Sơn,4.47,,"92 - 94 Nguyen Thi Tan, P2.",
-21127163,Nguyễn Quang Thái,8.84,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127174,Tăng Tường Thoại,2.93,,"106/9 Nguyen Hong, Ward 11",
-21127202,Trần Minh Hải Uyên,6.51,,"811 Tran Hung Dao, Ward 1, District 5",
-21127226,Huỳnh Long Thiên Bảo,7.89,,"176/22A Hoa Binh St., Tan Thoi Hoa Ward",
-21127230,Lê Tuấn Bình,1.81,,"92 - 94 Nguyen Thi Tan, P2.",
-21127234,Nguyễn Lê Anh Chi,7.41,,107 Nguyen Van Cu Street,
-21127235,Nguyễn Xuân Quỳnh Chi,5.43,,"ET4 Nguyen Hong Dao, Ward 13",
-21127241,Nguyễn Thành Đạt,3.45,,"127, Group 15, Song Hien Ward",
-21127243,Phùng Siêu Đạt,8.43,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127247,Quách Tấn Dũng,4.37,,"106/9 Nguyen Hong, Ward 11",
-21127257,Phạm Trần Minh Duy,8.18,,"176/22A Hoa Binh St., Tan Thoi Hoa Ward",
-21127259,Trần Hoàng Duy,2.29,,"92 - 94 Nguyen Thi Tan, P2.",
-21127296,Đặng Hà Huy,1.98,,107 Nguyen Van Cu Street,
-21127300,Nguyễn Cát Huy,5.53,,"ET4 Nguyen Hong Dao, Ward 13",
-21127309,Trương Đình Huy,3.54,,"127, Group 15, Song Hien Ward",
-21127315,Nguyễn Gia Khánh,5.25,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127324,Phạm Minh Khôi,6.31,,"106/9 Nguyen Hong, Ward 11",
-21127325,Phan Đặng Anh Khôi,9.04,,405 Kim Nguu Street,
-21127329,Châu Tấn Kiệt,5.74,,"67/5C Tam Dong Hamlet, Thoi Tam Thon Ward",
-21127331,Nguyễn Văn Tuấn Kiệt,5.15,,306 Nguyen Trai,
-21127440,Nguyễn Phước Thịnh,5.04,,"165/35 Street 3/2, Ward 11, District 10",
-21127443,Trần Ngọc Trường Thịnh,0.99,,Urban My Dinh 2,
-21127457,Vũ Minh Triết,5.48,,"92 - 94 Nguyen Thi Tan, P2.",
-21127495,Lê Ngô Song Cát,0.6,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127500,Lê Văn Dương,1.4,,"106/9 Nguyen Hong, Ward 11",
-21127508,Mai Huy Hoàng,6.77,,"811 Tran Hung Dao, Ward 1, District 5",
-21127535,Thành Thiện Nhân,1.89,,"176/22A Hoa Binh St., Tan Thoi Hoa Ward",
-21127571,Huỳnh Vĩnh Đồ,3.49,,"92 - 94 Nguyen Thi Tan, P2.",
-21127586,Trần Ngọc Minh Châu,3.1,,"ET4 Nguyen Hong Dao, Ward 13",
-21127594,Phạm Huỳnh Tấn Đạt,4.6,,"165/35 Street 3/2, Ward 11, District 10",
-21127606,Bùi Nguyên Hanh,9.82,,Urban My Dinh 2,
-21127617,Phạm Hoàng Gia Huy,3.67,,"92 - 94 Nguyen Thi Tan, P2.",
-21127627,Cao Nguyễn Khánh,3.67,,107 Nguyen Van Cu Street,
-21127630,Trần Nguyễn Anh Khoa,4.29,,"ET4 Nguyen Hong Dao, Ward 13",
-21127659,Bùi Ngọc Kiều Nhi,5.35,,"127, Group 15, Song Hien Ward",
-21127667,Trương Công Gia Phát,9.26,,"4K2 Phan Dinh Phung Street, Ward 17",
-21127675,Nguyễn Hoàng Phước,9.59,,"106/9 Nguyen Hong, Ward 11",
-21127686,Nguyễn Phùng Tài,8.65,,Urban My Dinh 2,
-21127695,Hoàng Trần Thông,4.43,,"92 - 94 Nguyen Thi Tan, P2.",
-21127711,Trịnh Minh Trung,4.87,,"106/9 Nguyen Hong, Ward 11",
-21127712,Lê Quang Trường,9.36,,"811 Tran Hung Dao, Ward 1, District 5",
-21127720,Đặng Vĩnh Tường,3.35,,"176/22A Hoa Binh St., Tan Thoi Hoa Ward",
-21127725,Trịnh Long Vũ,2.6,,"92 - 94 Nguyen Thi Tan, P2.",
-21127737,Trần Công Bảo,5.01,,"ET4 Nguyen Hong Dao, Ward 13",
-21127738,Trần Bảo Ngọc,6.9,,"165/35 Street 3/2, Ward 11, District 10",
-21127743,Trần Thái Toàn,2.79,,Urban My Dinh 2,
+22127016,Nguyễn Thị Ngọc Anh,4.81,22127016.jpg,"970 3/2, Ward 12, District 11",none
+22127029,Lê Nguyễn Gia Bảo,3.04,22127029.jpg,"107 PHAM DINH HO STREET, WARD 6, DITRICT 6",none
+22127036,Lê Quốc Bình,6.17,22127036.jpg,41 Nguyen Khac Nhu,none
+22127082,Ngô Thanh Phương Dương,1.09,22127082.jpg,"Linh Trung E.P.Z, Linh Trung Ward",none
+22127086,Nguyễn Lâm Anh Duy,1.15,22127086.jpg,"44/109 Pham Ngu Lao HD, City",none
+22127087,Nguyễn Quang Duy,8.84,22127087.jpg,"343 E5-E6 Lac Long Quan Street, Ward 5, District",none
+22127090,Văn Diệp Bảo Duy,5.46,22127090.jpg,"Xom Dong Hamlet, Tan Phu Trung Ward",none
+22127099,Hành Nguyễn Gia Hân,9.62,22127099.jpg,878 Tran Cao Van,none
+22127127,Nguyễn Khánh Hoàng,1.7,22127127.jpg,"124/82 Phan Huy Ich Street, Ward 15",none
+22127141,Ngô Hoàng Nam Hưng,4.84,22127141.jpg,"35 Le Lai, Thach Thang Ward",none
+22127146,Đinh Nguyễn Quỳnh Hương,7.79,22127146.jpg,AN THI HAMLET,none
+22127148,Dương Nhật Huy,7.98,22127148.jpg,"28 Do Quang Dau Street, District 1",none
+22127149,Huỳnh Anh Huy,9.2,22127149.jpg,Minh Khai Industrial Complex Industrial 7,none
+22127156,Nguyễn Phúc Huy,4.87,22127156.jpg,"Hiep Thanh Ward, Thu Dau Mot Town",none
+22127168,Trương Nhật Huy,7.03,22127168.jpg,"3 Alley 45 Phan Dinh Phung, Quan Thanh Ward",none
+22127189,Phạm Bình Khánh,2.04,22127189.jpg,7B Thi Sach Street,none
+22127216,Nguyễn Đình Kiên,3.88,22127216.jpg,"R18-19 Bau Cat 1, Ward 14, Tan Binh District",none
+22127224,Trương Thuận Kiệt,4.08,22127224.jpg,"67/5C Tam Dong Hamlet, Thoi Tam Thon Ward",none
+22127234,Cao Hoàng Lộc,3.76,22127234.jpg,18 Duc Giang Street,none
+22127237,Nguyễn Văn Xuân Lộc,8.98,22127237.jpg,"Rm.401, Living Quarter 8C, 30 Ta Quang Buu Str",none
+22127241,Hồ Trương Viết Long,5.62,22127241.jpg,121A6 Tran Huy Lieu Street,none
+22127257,Phạm Minh Mẫn,5.3,22127257.jpg,"316 St. 3/2, Ward 12, Dist. 10",none
+22127262,Đỗ Lương Nhật Minh,5.77,22127262.jpg,"48 Tran Chanh Chieu St Ward 14, Dist. 5",none
+22127272,Phạm Văn Minh,8.08,22127272.jpg,33 Ham Long Street,none
+22127277,Võ Thị Hồng Minh,2.93,22127277.jpg,"Room 304, Cao Thang, Dist.3",none
+22127284,Lê Hải Nam,9.81,22127284.jpg,281 Doi Can Street,none
+22127298,Hoàng Trung Nguyên,8.89,22127298.jpg,76 Nguyen Chi Thanh Street,none
+22127301,Nguyễn Gia Nguyễn,3.65,22127301.jpg,"633/12/31 Hong Bang Street, Ward 6, District 6",none
+22127314,Nguyễn Hoàng Như,8.17,22127314.jpg,"626 Lac Long Quan, Ward 5, District 11",none
+22127339,Võ Nhật Phước,9.8,22127339.jpg,"65 Group 7a, Trung Liet Street",none
+22127341,Nguyễn Thế Quan,5.94,22127341.jpg,"2A/20 Bach Dang Street, Ward 2",none
+22127348,Phan Nguyễn Hoàng Quân,5.95,22127348.jpg,103 Le Huu Trac St.,none
+22127366,Lê Xuân Hoàng Sơn,1.5,22127366.jpg,"E26-K300 Cong Hoa St., Ward 12",none
+22127385,Nguyễn Quốc Thắng,1.67,22127385.jpg,"Rm.707, 7th Flr., 2 Ngo Quyen",none
+22127397,Nguyễn Trần Đức Thiện,9.85,22127397.jpg,"KP 16, Ward Binh Tri Dong, District Binh Tan",none
+22127399,Vũ Thái Thiện,5.63,22127399.jpg,"274 Nguyen Van Linh Street, District 7",none
+22127401,Nguyễn Quang Thông,5.47,22127401.jpg,"1-3 Trinh Van Can St., Cau Ong Lanh Ward, Dist. 1",none
+22127418,Nguyễn Khánh Toàn,4.86,22127418.jpg,143 Le Hong Phong,none
+22127422,Lê Thanh Minh Trí,9.75,22127422.jpg,"285 No Trang Long Street, Ward 13",none
+22127424,Nguyễn Phước Minh Trí,8.13,22127424.jpg,372 Quang Trung Street,none
+22127435,Võ Lê Việt Tú,4.7,22127435.jpg,"91/3 Tran Binh Trong, Dist.5",none
+22127445,Nguyễn Lâm Nhã Uyên,9.86,22127445.jpg,"91 NGUYEN DU STREET, WARD 7",none
+22127446,Nguyễn Ngọc Phương Uyên,5.92,22127446.jpg,"103 Nguyen Trai, An Hoi Ward",none
+22127449,Mai Đức Vân,2.15,22127449.jpg,"745 Cach Mang Thang Tam St., Ward 6",none
+22127450,Phạm Anh Văn,9.32,22127450.jpg,"Highway 91, Thanh An Village",none
+22127463,Nguyễn Anh Vũ,4.3,22127463.jpg,"183 Ton Duc Thang, District Lien Chieu",none
+22127483,Nguyễn Huỳnh Minh Quang,2.07,22127483.jpg,"98 Tran Quang Khai, Dist.1",none
+22127492,Hồ Đăng Phúc,8.63,22127492.jpg,"10-10A Lu Gia St., Ward 15, Dist. 11",none
+22127043,Nguyễn Tấn Châu,6.34,22127043.jpg,"411 Highway 14, Chon Thanh town",none
+22127054,Liêu Hải Lưu Danh,5.23,22127054.jpg,182/2/6 Nguyen Huu Canh St.,none
+22127056,Châu Vĩnh Đạt,3.89,22127056.jpg,"107 Ly Thuong Kiet, Ward 7",none
+22127057,Đỗ Phan Tuấn Đạt,1.77,22127057.jpg,108 Ngoc Khanh Street,none
+22127064,Phạm Thành Đạt,4.6,22127064.jpg,"27-29 Ky Con, Nguyen Thai Binh Ward, Dist.1",none
+22127065,Trần Anh Tiến Đạt,1.69,22127065.jpg,"P105, A12 Khuong Thuong, Dong Da",none
+22127074,Võ Hoàng Đức,4.65,22127074.jpg,"410 QL 91B, P.An Khanh",none
+22127079,Phạm Quốc Dũng,3.72,22127079.jpg,"Metropolitan Bldg 235 Dong Khoi Street, Ben Nghe Ward, District 1",none
+22127095,Đỗ Đình Hải,2.78,22127095.jpg,"No. 4, Road 114",none
+22127101,Lý Ngọc Hân,8.94,22127101.jpg,"77 Au Co Street, Ward 14, District 11",none
+22127123,Lê Hồ Phi Hoàng,3.77,22127123.jpg,"Tay Bac Cu Chi IZ., Tan An Hoi Hamlet",none
+22127131,Trần Nguyễn Minh Hoàng,2.53,22127131.jpg,"15 Trieu Quang Phuc, P10, District 5",none
+22127132,Lý Nghị Hoằng,1.29,22127132.jpg,"229 To Hieu, Town",none
+22127143,Nguyễn Hữu Gia Hưng,6.68,22127143.jpg,"19 Truong Cong Dinh, Ward 13",none
+22127145,Nguyễn Quốc Hưng,8.12,22127145.jpg,"Floor 5, 57 Quang Trung StreetHai Ba Trung District",none
+22127163,Trần Đan Huy,3.04,22127163.jpg,127 National Highway 1,none
+22127171,Bùi Lê Minh Kha,3.44,22127171.jpg,"77 Au Co Street, Ward 14, District 11",none
+22127175,Đỗ Duy Khang,9.46,22127175.jpg,281 Doi Can Street,none
+22127199,Trần Nguyên Đăng Khoa,5.03,22127199.jpg,76 Nguyen Chi Thanh Street,none
+22127201,Võ Hoàng Anh Khoa,7.81,22127201.jpg,"633/12/31 Hong Bang Street, Ward 6, District 6",none
+22127239,Nguyễn Phúc Lợi,9.97,22127239.jpg,"626 Lac Long Quan, Ward 5, District 11",none
+22127254,Trương Nguyễn Hiền Lương,4.03,22127254.jpg,"65 Group 7a, Trung Liet Street",none
+22127268,Nguyễn Hữu Minh,9.55,22127268.jpg,"2A/20 Bach Dang Street, Ward 2",none
+21127023,Mai Quý Đạt,2.31,21127023.jpg,103 Le Huu Trac St.,none
+21127033,Trần Thành Duy,5.92,21127033.jpg,"E26-K300 Cong Hoa St., Ward 12",none
+21127044,Mai Bùi Thế Hiển,5.48,21127044.jpg,"Rm.707, 7th Flr., 2 Ngo Quyen",none
+21127046,Đặng Nhật Hòa,4.41,21127046.jpg,"KP 16, Ward Binh Tri Dong, District Binh Tan",none
+21127054,Huỳnh Thiện Hữu,6.28,21127054.jpg,"274 Nguyen Van Linh Street, District 7",none
+21127068,Ngô Hoàng Khang,9.49,21127068.jpg,"1-3 Trinh Van Can St., Cau Ong Lanh Ward, Dist. 1",none
+21127077,Huỳnh Đăng Khoa,1.88,21127077.jpg,143 Le Hong Phong,none
+21127078,Nguyễn Duy Đăng Khoa,7.86,21127078.jpg,"285 No Trang Long Street, Ward 13",none
+21127082,Trần Tuấn Khôi,9,21127082.jpg,372 Quang Trung Street,none
+21127084,Lê Xuân Kiên,6.73,21127084.jpg,"91/3 Tran Binh Trong, Dist.5",none
+21127101,Võ Tấn Lộc,6.15,21127101.jpg,"91 NGUYEN DU STREET, WARD 7",none
+21127108,Đặng Hà Nhật Minh,3.54,21127108.jpg,"103 Nguyen Trai, An Hoi Ward",none
+21127112,Triệu Nhật Minh,1.89,21127112.jpg,"274 Nguyen Van Linh Street, District 7",none
+21127113,Đinh Dương Hải Nam,8.39,21127113.jpg,"1-3 Trinh Van Can St., Cau Ong Lanh Ward, Dist. 1",none
+21127115,Trần Thanh Ngân,3.04,21127115.jpg,143 Le Hong Phong,none
+21127116,Nguyễn Lê Thanh Nghĩa,1.04,21127116.jpg,"285 No Trang Long Street, Ward 13",none
+21127118,Lâm Thanh Ngọc,5.66,21127118.jpg,372 Quang Trung Street,none
+21127122,Hồ Thanh Nhân,2.11,21127122.jpg,"91/3 Tran Binh Trong, Dist.5",none
+21127126,Bùi Minh Nhật,1.21,21127126.jpg,"91 NGUYEN DU STREET, WARD 7",none
+21127141,Bùi Đỗ Duy Quân,3.56,21127141.jpg,"103 Nguyen Trai, An Hoi Ward",none
+21127148,Đặng Văn Quang,3.34,21127148.jpg,"745 Cach Mang Thang Tam St., Ward 6",none
+21127151,Nguyễn Nhật Quang,3.76,21127151.jpg,"Highway 91, Thanh An Village",none
+21127153,Nguyễn Huỳnh Phú Quí,6.12,21127153.jpg,"183 Ton Duc Thang, District Lien Chieu",none
+21127158,Lê Hoàng Sang,3.25,21127158.jpg,"98 Tran Quang Khai, Dist.1",none
+21127173,Nguyễn Thiên Thọ,7.77,21127173.jpg,"10-10A Lu Gia St., Ward 15, Dist. 11",none
+21127176,Lê Thị Hoài Thư,6.05,21127176.jpg,"45 Le Duan Street, Ben Nghe Ward, District 1",none
+21127188,Đỗ Minh Triết,6.44,21127188.jpg,"411 Highway 14, Chon Thanh town",none
+21127193,Nguyễn Thanh Tú,9.39,21127193.jpg,182/2/6 Nguyen Huu Canh St.,none
+21127195,Lê Tự Anh Tuấn,9.38,21127195.jpg,"107 Ly Thuong Kiet, Ward 7",none
+22127386,Hà Trọng Thanh,9.5,22127386.jpg,"27-29 Ky Con, Nguyen Thai Binh Ward, Dist.1",none
+22127410,Lưu Thanh Thúy,2.04,22127410.jpg,"P105, A12 Khuong Thuong, Dong Da",none
+22127417,Võ Trung Tín,6.31,22127417.jpg,"410 QL 91B, P.An Khanh",none
+22127448,Trần Phương Uyên,2.76,22127448.jpg,"44/109 Pham Ngu Lao HD, City",none
+22127467,Nguyễn Văn Xanh,9.13,22127467.jpg,"343 E5-E6 Lac Long Quan Street, Ward 5, District",none
+22127481,Nguyễn Thanh Nhàn,7.16,22127481.jpg,"Xom Dong Hamlet, Tan Phu Trung Ward",none
+22127482,Nguyễn Gia Phúc,6.63,22127482.jpg,878 Tran Cao Van,none
+22127003,Trần Hoàng Thái An,4.7,22127003.jpg,"124/82 Phan Huy Ich Street, Ward 15",none
+22127005,Lê Thiên Ân,3.36,22127005.jpg,"35 Le Lai, Thach Thang Ward",none
+22127010,Đỗ Tân Ngọc Anh,1.34,22127010.jpg,AN THI HAMLET,none
+22127023,Võ Ngọc Minh Anh,8.77,22127023.jpg,"28 Do Quang Dau Street, District 1",none
+22127081,Huỳnh Lê Hải Dương,6.66,22127081.jpg,Minh Khai Industrial Complex Industrial 7,none
+22127111,Ngô Sách Hiếu,9.88,22127111.jpg,"Hiep Thanh Ward, Thu Dau Mot Town",none
+22127119,Hồ Phước Hoàn,8.4,22127119.jpg,"3 Alley 45 Phan Dinh Phung, Quan Thanh Ward",none
+22127125,Nguyễn Đăng Việt Hoàng,6.54,22127125.jpg,7B Thi Sach Street,none
+22127137,Vũ Tuấn Hùng,4.19,22127137.jpg,"R18-19 Bau Cat 1, Ward 14, Tan Binh District",none
+22127161,Phạm Nhật Huy,7.79,22127161.jpg,"67/5C Tam Dong Hamlet, Thoi Tam Thon Ward",none
+22127172,Phạm Hoàng Kha,4.55,22127172.jpg,18 Duc Giang Street,none
+22127184,Đặng Lê Gia Khánh,5.58,22127184.jpg,"Rm.401, Living Quarter 8C, 30 Ta Quang Buu Str",none
+22127188,Nguyễn Quốc Khánh,1.92,22127188.jpg,121A6 Tran Huy Lieu Street,none
+22127204,Nguyễn Triều Khoáng,1.71,22127204.jpg,"316 St. 3/2, Ward 12, Dist. 10",none
+22127206,Cao Bảo Khôi,9.56,22127206.jpg,"48 Tran Chanh Chieu St Ward 14, Dist. 5",none
+22127209,Nguyễn Minh Khôi,8.42,22127209.jpg,33 Ham Long Street,none
+22127228,Lâm Gia Lạc,9.09,22127228.jpg,"KP 16, Ward Binh Tri Dong, District Binh Tan",none
+22127233,Trần Hoàng Linh,1.08,22127233.jpg,"274 Nguyen Van Linh Street, District 7",none
+22127242,Nguyễn Long,9.22,22127242.jpg,"1-3 Trinh Van Can St., Cau Ong Lanh Ward, Dist. 1",none
+22127283,Lại Ngọc Phương Nam,1.16,22127283.jpg,143 Le Hong Phong,none
+22127285,Nguyễn Hữu Nam,8.03,22127285.jpg,"285 No Trang Long Street, Ward 13",none
+22127293,Dương Trung Nghĩa,6.76,22127293.jpg,372 Quang Trung Street,none
+22127294,Hồ Phước Nghĩa,1.54,22127294.jpg,"91/3 Tran Binh Trong, Dist.5",none
+22127302,Nguyễn Đăng Nhân,3.4,22127302.jpg,"91 NGUYEN DU STREET, WARD 7",none
+20127017,Ngô Gia Hải,9.65,20127017.jpg,"103 Nguyen Trai, An Hoi Ward",none
+20127018,Phùng Đức Hải,9.74,20127018.jpg,"274 Nguyen Van Linh Street, District 7",none
+20127066,Nguyễn Nhật Quân,5.39,20127066.jpg,"1-3 Trinh Van Can St., Cau Ong Lanh Ward, Dist. 1",none
+20127107,Lê Quốc kỳ Anh,9.74,20127107.jpg,143 Le Hong Phong,none
+20127115,Lâm Quốc Bảo,5.7,20127115.jpg,"285 No Trang Long Street, Ward 13",none
+20127117,Nguyễn Minh Gia Bảo,6.41,20127117.jpg,372 Quang Trung Street,none
+20127145,Hồ Quốc Duy,4.78,20127145.jpg,"91 NGUYEN DU STREET, WARD 7",none
+20127153,Mai Trần Gia Hân,2.3,20127153.jpg,"103 Nguyen Trai, An Hoi Ward",none
+20127155,Phạm Anh Hào,2.53,20127155.jpg,"745 Cach Mang Thang Tam St., Ward 6",none
+20127170,Phạm Viết Hoàng,7.55,20127170.jpg,"Highway 91, Thanh An Village",none
+20127184,Hà Huỳnh Đức Huy,8.93,20127184.jpg,"183 Ton Duc Thang, District Lien Chieu",none
+20127200,Nguyễn Nam Khang,3.58,20127200.jpg,"98 Tran Quang Khai, Dist.1",none
+20127226,Tô Gia Lâm,4.92,20127226.jpg,"10-10A Lu Gia St., Ward 15, Dist. 11",none
+20127236,Phan Hoàng Long,7.88,20127236.jpg,"45 Le Duan Street, Ben Nghe Ward, District 1",none
+20127250,Hồ Thị Thanh Ngân,2.51,20127250.jpg,"411 Highway 14, Chon Thanh town",none
+20127258,Hoàng Phước Nguyên,6.14,20127258.jpg,121A6 Tran Huy Lieu Street,none
+20127259,Huỳnh Thành Nguyên,3.59,20127259.jpg,"316 St. 3/2, Ward 12, Dist. 10",none
+20127292,Phạm Đăng Quân,9.3,20127292.jpg,"48 Tran Chanh Chieu St Ward 14, Dist. 5",none
+20127354,Nguyễn Minh Tiến,8.86,20127354.jpg,"KP 16, Ward Binh Tri Dong, District Binh Tan",none
+20127374,Nguyễn Đức Trường,3.09,20127374.jpg,"274 Nguyen Van Linh Street, District 7",none
+20127383,Lê Ngọc Tường,8.23,20127383.jpg,"1-3 Trinh Van Can St., Cau Ong Lanh Ward, Dist. 1",none
+20127430,Nguyễn Quang Tiến,4.61,20127430.jpg,143 Le Hong Phong,none
+20127465,Lê Đông Đông,3.78,20127465.jpg,"285 No Trang Long Street, Ward 13",none
+20127467,Liên Văn Đức,9.49,20127467.jpg,372 Quang Trung Street,none
+20127472,Bùi Thị Dung,3.47,20127472.jpg,"91/3 Tran Binh Trong, Dist.5",none
+20127484,Nguyễn tư Duy,8.43,20127484.jpg,"91 NGUYEN DU STREET, WARD 7",none
+20127485,Phạm Đức Duy,7.06,20127485.jpg,"103 Nguyen Trai, An Hoi Ward",none
+20127499,Phan Lê Minh Hiếu,9.09,20127499.jpg,"274 Nguyen Van Linh Street, District 7",none
+20127502,Võ Lê Hoài,2.68,20127502.jpg,"1-3 Trinh Van Can St., Cau Ong Lanh Ward, Dist. 1",none
+20127504,Mai Vũ Huy Hoàng,3.47,20127504.jpg,143 Le Hong Phong,none
+20127509,Lu Phi Hùng,1.28,20127509.jpg,"285 No Trang Long Street, Ward 13",none
+20127526,Liêu Gia Phúc Khang,9.78,20127526.jpg,127 National Highway 1,none
+20127528,Quách Vĩnh Khang,2.53,20127528.jpg,"77 Au Co Street, Ward 14, District 11",none
+20127543,Nguyễn Lê Tuấn Kiệt,2.26,20127543.jpg,281 Doi Can Street,none
+20127553,Nguyễn Tiến Lợi,2.68,20127553.jpg,76 Nguyen Chi Thanh Street,none
+20127571,Bùi Văn Nghĩa,5.74,20127571.jpg,"633/12/31 Hong Bang Street, Ward 6, District 6",none
+20127580,Nguyễn Phú Trí Nhân,9.42,20127580.jpg,"626 Lac Long Quan, Ward 5, District 11",none
+20127583,Nguyễn Như Nhật,9.31,20127583.jpg,"65 Group 7a, Trung Liet Street",none
+20127588,Nguyễn Tấn Phát,1.56,20127588.jpg,"2A/20 Bach Dang Street, Ward 2",none
+20127608,Trần Xuân Quang,5.23,20127608.jpg,103 Le Huu Trac St.,none
+20127640,Ngô Đông Thức,3.16,20127640.jpg,"E26-K300 Cong Hoa St., Ward 12",none
+20127641,Đặng Ngọc Tiến,1.08,20127641.jpg,"Rm.707, 7th Flr., 2 Ngo Quyen",none
+20127645,Võ Hoàng Gia Tín,6.84,20127645.jpg,"KP 16, Ward Binh Tri Dong, District Binh Tan",none
+20127659,Nguyễn Quốc Tuấn,7.51,20127659.jpg,"274 Nguyen Van Linh Street, District 7",none
+20127660,Phan Nguyễn Hoàng Tuấn,3.9,20127660.jpg,"1-3 Trinh Van Can St., Cau Ong Lanh Ward, Dist. 1",none
+20127668,Bùi Hoàng Vũ,6.93,20127668.jpg,"285 No Trang Long Street, Ward 13",none
+20127670,Nguyễn Cao Nam Vũ,9.62,20127670.jpg,372 Quang Trung Street,none
+20127676,Nguyễn Vũ Khôi,8.4,20127676.jpg,"91/3 Tran Binh Trong, Dist.5",none

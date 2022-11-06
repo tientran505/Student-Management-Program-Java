@@ -1,9 +1,9 @@
+import java.util.Objects;
 import java.util.Scanner;
-import java.io.IOException;
 /**
- * Created by ${USER}
- * Date ${DATE} - ${TIME}
- * Description: ...
+ * Created by Thien Tien
+ * Date 11/5/2022 - 12:34 AM
+ * Description: The program will run from here
  */
 public class Main {
     public static void main(String[] args) {
@@ -12,61 +12,53 @@ public class Main {
         StudentManagementSystem sys = new StudentManagementSystem(new StudentList());
         sys.initData();
         do {
-            System.out.println("MENU");
+            System.out.println("\nMENU");
             System.out.println("1. Add student");
             System.out.println("2. Update student information");
             System.out.println("3. Delete a student");
             System.out.println("4. View the student list");
-            System.out.println("5. Save student list into file(s)");
+            System.out.println("5. Save student list into file (default.csv)");
             System.out.println("6. Import/Export student list from/to csv file");
             System.out.println("7. Exit the program");
             System.out.println("---------------------------------------------");
             System.out.print("Enter your choice: ");
 
-            int choice = Integer.parseInt(scanner.nextLine());
+            String line = scanner.nextLine();
+            if (Objects.equals(line, "")) {
+                continue;
+            }
+
+            int choice = Integer.parseInt(line);
             switch (choice) {
-                case 1:
+                case 1 -> {
                     sys.addStudent();
                     System.out.println("Press Enter to continue.....");
                     scanner.nextLine();
-                    break;
-
-                case 2:
+                }
+                case 2 -> {
                     sys.updateStudentInfor();
                     System.out.println("Press Enter to continue....");
                     scanner.nextLine();
-                    break;
-
-                case 3:
+                }
+                case 3 -> {
                     sys.deleteStudent();
                     System.out.println("Press Enter to continue.....");
                     scanner.nextLine();
-                    break;
-
-                case 4:
+                }
+                case 4 -> {
                     sys.printList();
                     System.out.println("Press Enter to continue.....");
                     scanner.nextLine();
-                    break;
-
-                case 5:
-                    break;
-
-                case 6:
-                    sys.importExportStudent();
-                    System.out.println("Press Enter to continue.....");
-                    scanner.nextLine();
-                    break;
-
-                case 7:
-                    running = false;
-                    break;
-
-                default:
-                    System.out.println("Invalid choice. Try again!");
-
+                }
+                case 5 -> sys.saveDefault();
+                case 6 -> sys.importExportStudent();
+                case 7 -> {
+                    System.out.println("Thank you for using the program.");
+                    System.exit(0);
+                }
+                default -> System.out.println("Invalid choice. Try again!");
             }
-        } while(running);
+        } while(true);
     }
 
 
