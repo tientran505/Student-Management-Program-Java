@@ -10,7 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
         StudentManagementSystem sys = new StudentManagementSystem(new StudentList());
-
+        sys.initData();
         do {
             System.out.println("MENU");
             System.out.println("1. Add student");
@@ -32,6 +32,9 @@ public class Main {
                     break;
 
                 case 2:
+                    sys.updateStudentInfor();
+                    System.out.println("Press Enter to continue....");
+                    scanner.nextLine();
                     break;
 
                 case 3:
@@ -50,12 +53,9 @@ public class Main {
                     break;
 
                 case 6:
-                    System.out.println("IMPORT THE STUDENT LIST");
-                    System.out.print("Enter filename: ");
-                    String dir = "data/";
-                    String fileName = scanner.nextLine();
-                    sys.importList(dir + fileName);
-//                    sys.createFolder(fileName);
+                    sys.importExportStudent();
+                    System.out.println("Press Enter to continue.....");
+                    scanner.nextLine();
                     break;
 
                 case 7:

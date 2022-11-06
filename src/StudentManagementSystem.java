@@ -16,6 +16,14 @@ public class StudentManagementSystem {
         this.list = list;
     }
 
+    public void initData() {
+        File f = new File("data/default.csv");
+        if (f.exists() && !f.isDirectory()) {
+            System.out.println("Is valid");
+            importList("default.csv");
+        }
+    }
+
     /**
      * add new Student
      */
@@ -113,7 +121,12 @@ public class StudentManagementSystem {
 
     public void importList(String fileName) {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(fileName));
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("IMPORT THE STUDENT LIST");
+            System.out.print("Enter filename: ");
+            String dir = "data/";
+            fileName = fileName.length() > 0 ? fileName : scanner.nextLine();
+            BufferedReader reader = new BufferedReader(new FileReader(dir + fileName));
             reader.readLine();
             String line = "";
 
@@ -160,7 +173,7 @@ public class StudentManagementSystem {
         }
     }
 
-    public void createFolder(String fileName) {
+    public void createFolder(String fileName) { // 22212000
         try {
             PrintWriter writer = new PrintWriter(new File(fileName));
             writer.write("...123");
@@ -173,7 +186,39 @@ public class StudentManagementSystem {
         }
     }
 
-    void updateStudentInfor() {
+    public void exportStudentList() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter file name: ");
+        String fileName = scanner.nextLine();
+        try {
+            PrintWriter writer = new PrintWriter(fileName);
+
+            writer.write("student id,student name,gpa,image,address,notes\n");
+            LinkedList<Student> stuList = list.getStudentList();
+            for (Student s : stuList) {
+                writer.write(s.getId() + ",");
+                writer.write(s.getName() + ",");
+                writer.write(s.getGpa() + ",");
+                writer.write(s.getImg() + ",");
+                String address = s.getAddress();
+                if (address.indexOf(',') > 0 && address.indexOf('"') == -1) {
+                    address = '"' + address + '"';
+                }
+                writer.write(address + ",");
+                String notes = s.getNotes();
+                if (notes.indexOf(',') > 0 && notes.indexOf('"') == -1) {
+                    notes = '"' + notes + '"';
+                }
+                writer.write(notes + "\n");
+            }
+
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void updateStudentInfor() {
         Scanner scanner = new Scanner(System.in);
 
         String id = scanner.nextLine();
@@ -245,6 +290,22 @@ public class StudentManagementSystem {
                 }
                 default -> System.out.println("Invalid choice");
             }
+        }
+    }
+
+    public void importExportStudent() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("-----------------------------");
+        System.out.println("1. Import student from csv file");
+        System.out.println("2. Export student to csv file");
+
+        int choice = Integer.parseInt(scanner.nextLine());
+        if (choice == 1) {
+            importList("");
+        } else if (choice == 2) {
+            exportStudentList();
+        } else {
+            System.out.println("Invalid choice...");
         }
     }
 }
